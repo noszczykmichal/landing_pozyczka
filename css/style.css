@@ -1,0 +1,45 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form{
+    background-image: url('../img/background.png');
+    background-size: cover;
+    height: 300px;
+}
+
+.form a:hover{
+    text-decoration: none;
+}
+
+.brandName{
+    color: #ecd407;
+    font-size: calc(100% + 0.75vh + 0.75vw);
+    font-weight: 700;
+}
+
+
+
+.contactUs{
+    font-weight: 100;
+}
+
+.whiteFont{
+    color: #fff;
+}
+.iconTel{
+    color: #fff;
+    font-size: calc(100% + 0.75vh + 0.75vw);
+}
+
+.callToUs{
+    font-size: calc(10% + 0.75vh + 0.75vw);
+}
+
+
+
+
+
+
+
+
