@@ -62,40 +62,36 @@ form input[type="submit"]{
 }
 
 
-/* about */
+/*-------- Section About Us --------*/
 
 
 .counter
 {
     background-color: #eaecf0;
-    text-align: center;
 }
 .experience,.clients{
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin: 4.5em 0em;
 }
 
 .counter-count{
-    font-size: 18px;
-    background-color: #00b3e7;
+    font-size: 1.2em;
+    background-color: #001d8a;;
     border-radius: 50%;
     position: relative;
     color: #ffffff;
-    text-align: center;
-    line-height: 92px;
-    width: 92px;
-    height: 92px;
+    line-height: 4.5em;
+    width: 4.5em;
+    height: 4.5em;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    display: inline-block;
 }
 
 .experience-p,.clients-p{
-    font-size: 24px;
+    font-size: 1.5em;
     color: #000000;
-    line-height: 34px;
+    line-height: 2em;
 }
 
 
