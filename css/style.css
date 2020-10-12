@@ -65,12 +65,11 @@ form input[type="submit"]{
 /*-------- Section About Us --------*/
 
 
-.counter
-{
+.aboutUs{
     background-color: #eaecf0;
 }
 .experience,.clients{
-    margin: 4.5em 0em;
+    /* margin: 4.5em 0em; */
 }
 
 .counter-count{
@@ -95,12 +94,18 @@ form input[type="submit"]{
 }
 
 .articles{
-    height: 100px;
-    border: 2px solid blue;
+    /* height: 100px;
+    border: 2px solid blue; */
 }
 
-.quotes th, tr, td{
-    border: 1px solid black;
+.quotes tr{
+    border-bottom: 1px solid gray;
+}
+
+.quotes td{
+    font-size: 1em;
+    display: inline-block;
+    margin: 5px;
 }
 
 .rowQuotesAndArticles{
