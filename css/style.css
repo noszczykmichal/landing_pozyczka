@@ -68,9 +68,6 @@ form input[type="submit"]{
 .aboutUs{
     background-color: #eaecf0;
 }
-.experience,.clients{
-    /* margin: 4.5em 0em; */
-}
 
 .counter-count{
     font-size: 1.2em;
@@ -93,9 +90,8 @@ form input[type="submit"]{
     line-height: 2em;
 }
 
-.articles{
-    /* height: 100px;
-    border: 2px solid blue; */
+caption{
+    caption-side: top;
 }
 
 .quotes tr{
@@ -104,10 +100,9 @@ form input[type="submit"]{
 
 .quotes td{
     font-size: 1em;
-    display: inline-block;
-    margin: 5px;
 }
 
 .rowQuotesAndArticles{
     margin: 4.5em 0em;
 }
+
