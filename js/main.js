@@ -1,4 +1,23 @@
 $(function () {
+    //form validation
+
+    $('.form-control[type="submit"]').click(function(event){
+        //grabbing all inputs of type: text, email and tel
+        const inputVal=$('.form-control[type="text"],[type="email"], [type="tel"]');
+
+        inputVal.each(function(){
+            if($(this).val().trim()==""){
+                //getting the old value of input's placeholder
+                const placeholderVal=$(this).attr('placeholder');
+                //changing placeholder's color and value for inputs that after use of trim turn out to be empty
+                $(this).addClass('invalidValue').attr('placeholder', 'Uzupełnij pole: '+placeholderVal);
+                event.preventDefault()
+            }
+        })
+    })
+
+
+
     //launching of the counters bound with a scroll event + code for the counters animation
 
     $(document).bind('scroll', function (ev) {
