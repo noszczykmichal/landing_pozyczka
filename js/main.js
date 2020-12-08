@@ -112,11 +112,11 @@ $(function () {
                 //creating a date object with time set to the renewal of the api subscription
                 let subscripDate = new Date();
                 subscripDate.setDate(10)
-                subscripDate.setHours(1)
+                subscripDate.setHours(0)
                 subscripDate.setMinutes(0);
                 subscripDate.setSeconds(0);
                 subscripDate.setMilliseconds(0);
-
+                
                 //actual date
                 let actDate = new Date();
                 //counting how many milliseconds are there left to renewal of subscription
