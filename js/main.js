@@ -105,11 +105,6 @@ $(function () {
 
         });
 
-        if(newError!==null || responseSuccess!==null){
-
-            $('.preloader').addClass('preloaderDispNone');
-        }
-
         //error handling and showing to the user messages depending on the context and error status
 
         if (newError == 429) {
